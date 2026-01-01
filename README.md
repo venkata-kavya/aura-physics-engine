@@ -1,18 +1,62 @@
-# React + Vite
+# Aura - Orchestrate The Chaos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Aura** is a high-performance, cinematic landing page designed for next-generation SaaS platforms. Built with **React** and the cutting-edge **Tailwind CSS v4**, it features immersive animations, glassmorphism effects, and a fully responsive layout.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cinematic UI:** Dark mode aesthetic with neon glows, noise textures, and Aurora gradients.
+- **Modern Stack:** Built using React + Vite and **Tailwind CSS v4**.
+- **Interactive Animations:** Custom CSS keyframes for floating blobs, gradient text, and shimmering buttons.
+- **Fully Responsive:** optimized navigation and layout for mobile, tablet, and desktop.
+- **3D Elements:** CSS-only 3D perspective transformations for app mockups.
+- **Modular Architecture:** Cleanly separated components (`Hero`, `Features`, `Stack`, `Pricing`, `Navbar`).
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/) - UI Library
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS v4](https://tailwindcss.com/) - Styling & Design System
+- [Lucide React](https://lucide.dev/) - Iconography
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
 
-#
+Ensure you have **Node.js** (v18+) installed on your machine.
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/your-username/aura-landing.git](https://github.com/your-username/aura-landing.git)
+    cd aura-landing
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4.  Open `http://localhost:5173` in your browser.
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/       # UI Components
+│   ├── Hero.jsx      # Main header with 3D mockup
+│   ├── Navbar.jsx    # Responsive navigation
+│   ├── Features.jsx  # Grid layout for features
+│   ├── Stack.jsx     # Integration/Tech stack section
+│   └── ...
+├── index.css         # Global styles & Tailwind v4 configuration
+└── App.jsx           # Main layout assembler
+```
